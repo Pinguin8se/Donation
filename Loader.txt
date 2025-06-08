@@ -1,0 +1,4 @@
+repeat task.wait() until workspace:FindFirstChild("Donation Board // V3", true)
+task.wait(2.5)
+local module = script.MainModule
+require(module)
